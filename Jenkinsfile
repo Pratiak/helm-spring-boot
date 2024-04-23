@@ -50,6 +50,7 @@ pipeline{
             script{
                 git branch: 'main', url: 'https://github.com/Pratiak/helm-spring-boot.git'
                 sh 'helm upgrade first --install mychart --namespace helm-deployment --set image.tag=$BUILD_NUMBER'
+                
             }
         }
     }
