@@ -7,7 +7,7 @@ pipeline{
         IMAGE_NAME='spring'
         DOCKER_USERNAME='pratiak'
     }
-    
+
     stages{
         stage('git checkout'){
              agent{
@@ -56,3 +56,4 @@ pipeline{
     }
 
 }
+
