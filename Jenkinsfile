@@ -27,7 +27,7 @@ pipeline{
         }
     }
     
-    stage('docker image push'){
+    stage('image push'){
         agent{
             label 'docker'
         }
