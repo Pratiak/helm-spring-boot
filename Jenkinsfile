@@ -15,8 +15,7 @@ pipeline{
         } 
             steps{
                  git branch: 'main', url: 'https://github.com/Pratiak/helm-spring-boot.git'
-            
-       }
+              }
     }
     
     stage('docker build'){
